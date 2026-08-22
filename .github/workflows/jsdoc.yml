@@ -20,7 +20,7 @@ jobs:
     - name: Install JSDoc & Build Documentation
       run: |
         npm install -g jsdoc
-        jsdoc ./ -r -d docs
+        jsdoc README.md ./ -r -d docs
 
     # Tambahan: Commit & Push folder docs kembali ke repository
     - name: Commit & Push generated docs

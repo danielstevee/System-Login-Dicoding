@@ -25,7 +25,11 @@ loginFormElement.addEventListener('submit', function(event) {
 });
 
 
-//tes
+/**
+ * Modul untuk menangani logika autentikasi login.
+ * @module Login-Script
+ */
+
 /**
  * Fungsi untuk memvalidasi kredensial login pengguna.
  * 
