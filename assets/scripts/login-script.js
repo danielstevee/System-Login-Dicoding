@@ -23,3 +23,19 @@ loginFormElement.addEventListener('submit', function(event) {
       showPopUp() 
     }
 });
+
+
+//tes
+/**
+ * Fungsi untuk memvalidasi kredensial login pengguna.
+ * 
+ * @param {string} email - Email yang diinput oleh pengguna.
+ * @param {string} password - Password yang diinput oleh pengguna.
+ * @returns {boolean} Mengembalikan true jika kredensial sesuai.
+ */
+function validateLogin(email, password) {
+  const expectedEmail = 'admin@dicoding.com';
+  const expectedPassword = 'superpassword';
+
+  return email === expectedEmail && password === expectedPassword;
+}
